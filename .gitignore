@@ -32,14 +32,6 @@ coverage.xml
 htmlcov/
 
 # =====================
-# Editors / OS
-# =====================
-.vscode/
-.idea/
-.DS_Store
-Thumbs.db
-
-# =====================
 # Logs / Temp
 # =====================
 *.log
@@ -71,6 +63,11 @@ dist-frontend/
 .env.*
 config.local.toml
 *untracked*
-*/_*
-!*/__init__.py
-!*/__main__.py
+
+# =====================
+# Editors / OS
+# =====================
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
