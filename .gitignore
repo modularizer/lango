@@ -1,0 +1,76 @@
+# =====================
+# Python / Build
+# =====================
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.so
+*.egg-info/
+.eggs/
+build/
+dist/
+wheels/
+pip-wheel-metadata/
+
+# =====================
+# Virtual Environments
+# =====================
+.venv/
+venv/
+env/
+ENV/
+
+# =====================
+# Tooling
+# =====================
+.mypy_cache/
+.pytest_cache/
+.ruff_cache/
+.coverage
+coverage.xml
+htmlcov/
+
+# =====================
+# Editors / OS
+# =====================
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+
+# =====================
+# Logs / Temp
+# =====================
+*.log
+*.tmp
+*.swp
+
+# =====================
+# Lango Runtime Outputs
+# =====================
+.lango/
+lango.out/
+workspace/
+*.annotated.py
+annotations.json
+report.json
+
+# =====================
+# Web Demo (if present)
+# =====================
+node_modules/
+dist-frontend/
+.build/
+.cache/
+
+# =====================
+# Secrets / Local Config
+# =====================
+.env
+.env.*
+config.local.toml
+*untracked*
+*/_*
+!*/__init__.py
+!*/__main__.py

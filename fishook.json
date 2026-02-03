@@ -1,0 +1,3 @@
+{
+  "pre-commit": "python scripts/sync_requirements.py && python scripts/sync_version.py && git add pyproject.toml src/lango/__init__.py"
+}
